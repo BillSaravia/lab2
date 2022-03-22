@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.html">
+    <link rel="stylesheet" href="index.css">
+    <title>Ejercicio 5</title>
+</head>
+<body>
+    <script>
+        let num1, num2, num3;
+        num1 = parseInt(prompt('Ingrese el primer número:'));
+        num2 = parseInt(prompt('Ingrese el segundo número:'));
+        num3 = parseInt(prompt('Ingrese el tercer número:'));
+        
+        if (num1 == num2 && num2 == num3){
+   document.write("El primer, segundo y tercer número son iguales y tienen el mismo valor: "+num1);
+   }
+   else{
+        
+        if (num1 > num2) {
+            if (num1 > num3) {
+                document.write('El mayor número es: ' + num1);
+            } else {
+                document.write('El mayor número es: ' + num3);
+            }
+        } else {
+            if (num2 > num3) {
+                document.write('El mayor número es: ' + num2);
+            } else {
+                document.write('El mayor número es: ' + num3);
+            }
+        }
+        document.write('<br>');
+        document.write('<br>');
+        if (num1 < num2) {
+            if (num1 < num3) {
+                document.write('El menor número es: ' + num1);
+            } else {
+                document.write('El menor número es: ' + num3);
+            }
+        } else {
+            if (num2 < num3) {
+                document.write('El menor número es: ' + num2);
+            } else {
+                document.write('El menor número es: ' + num3);
+            }
+        }
+   }
+        document.write('<br>');
+        document.write('<br>');
+    </script>
+
+<pre>
+  
+</pre>
+
+<center><p><a href="Index.html"><label style="border-radius: 5px; background: #000000; border-color:#000000;  height:44px; color: white; width: 152px; text-align: center; font-size: 16px; padding: 10px 0;">Regresar a Inicio</label></center>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.html">
+    <link rel="stylesheet" href="index.css">
+    <title>Ejercicio 4</title>
+</head>
+<body>
+    <script>
+        let not1, not2, not3;
+        not1 = prompt('Ingrese la primera nota:');
+        not1 = parseInt(not1);
+        not2 = prompt('Ingrese la segunda nota:');
+        not2 = parseInt(not2);
+        not3 = prompt('Ingrese la tercera nota:');
+        not3 = parseInt(not3);
+        let suma;
+        suma = not1 + not2 + not3;
+        let promedio;
+        promedio = suma / 3;
+        promedio = promedio.toFixed(2);
+        if (promedio >= 16) {
+            document.write('El promedio del alumno es: ' +promedio);
+            document.write('<br>');
+            document.write('El Alumno a aprobado con nota <b> Regular </b> excelente');
+            document.write('<br>');
+         }
+        if( promedio>=10 && promedio<16) { 
+            document.write('El promedio del alumno es: ' +promedio);
+            document.write('<br>');
+            document.write('El Alumno a aprobado con nota <b> Regular </b> ');
+            document.write('<br>');
+        }
+        if ( promedio>4 &&promedio<10) {
+            document.write('El promedio del alumno es: ' +promedio);
+            document.write('<br>');
+            document.write('El Alumno a aprobado con nota <b> Regular </b> pasable');
+            document.write('<br>');}
+        if (promedio<=4) {
+            document.write('El promedio del alumno es: ' +promedio);
+            document.write('<br>');
+            document.write('El Alumno a <b> Reprobado </b>');
+            document.write('<br>');
+        }
+    </script>
+<pre>
+  
+</pre>
+
+<center><p><a href="Index.html"><label style="border-radius: 5px; background: #000000; border-color:#000000;  height:44px; color: white; width: 152px; text-align: center; font-size: 16px; padding: 10px 0;">Regresar a Inicio</label></center>
+</body>
+</html>

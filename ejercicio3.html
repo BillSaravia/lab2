@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.html">
+    <link rel="stylesheet" href="index.css">
+    <title>Ejercicio 3</title>
+</head>
+<body>
+    <script>
+        let num1, num2;
+        num1 = parseInt(prompt('Ingrese el primer número:'));
+        num2 = parseInt(prompt('Ingrese el segundo número:'));
+        if (num1 > num2) {
+            let suma, diferencia;
+            suma = num1 + num2;
+            diferencia = num1 - num2;
+            document.write('La suma es: ' + suma);
+            document.write('<br>');
+            document.write('La diferencia es: ' + diferencia);
+        } else {
+            let producto, division;
+            producto = num1 * num2;
+            division = num1 / num2;
+            division  = division.toFixed(2);
+            document.write('El producto es ' + producto);
+            document.write('<br>');
+            document.write('La división del primero respecto al segundo es: ' + division);
+        }
+    </script>
+<pre>
+  
+</pre>
+
+<center><p><a href="Index.html"><label style="border-radius: 5px; background: #000000; border-color:#000000;  height:44px; color: white; width: 152px; text-align: center; font-size: 16px; padding: 10px 0;">Regresar a Inicio</label></center>
+
+</body>
+</html>

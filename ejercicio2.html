@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.html">
+    <link rel="stylesheet" href="index.css">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+    <script>
+        let num1, num2, num3, num4;
+        num1 = prompt('Ingrese el primer número:');
+        while (num1=="") {
+            num1=prompt("Ingrese el primer número:");
+        }
+        num2 = prompt('Ingrese el segundo número:');
+        while (num2=="") {
+            num2=prompt("Ingrese el segundo número:");
+        }
+        num3 = prompt('Ingrese el tercer número:');
+        while (num3=="") {
+            num3=prompt("Ingrese el tercer número:");
+        }
+        num4 = prompt('Ingrese el cuarto número:');
+        while (num4=="") {
+            num4=prompt("Ingrese el cuarto número:");
+        }
+        let suma;
+        let producto;
+        suma = parseInt(num1) + parseInt(num2);
+        producto = parseInt(num3) * parseInt(num4);
+        document.write('La suma de los dos primeros números es : ');
+        document.write("<b>" +suma+ "</b>");
+        document.write('<br>');
+        document.write('El producto del tercer y cuarto número es : ');
+        document.write("<b>" +producto+ "</b>");
+    </script>
+
+<pre>
+  
+</pre>
+
+<center><p><a href="Index.html"><label style="border-radius: 5px; background: #000000; border-color:#000000;  height:44px; color: white; width: 152px; text-align: center; font-size: 16px; padding: 10px 0;">Regresar a Inicio</label></center>
+</body>
+</html>
